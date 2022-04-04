@@ -35,10 +35,11 @@ hr {
 }
 
 .container {
+  height: 375px;
   position: relative;
   flex-direction: column;
   background-color: white;
-  height: 21rem;
+  
   border-radius: 8px;
 }
 
