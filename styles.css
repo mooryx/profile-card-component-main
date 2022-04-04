@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+  line-height: 0.5;
+  background-color: hsl(185, 75%, 39%);
+}
+
+h4 {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+h5 {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+
+h6 {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+
+span {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+
+hr {
+  color: hsl(0, 0%, 59%);
+}
+
+.container {
+  position: relative;
+  flex-direction: column;
+  background-color: white;
+  height: 21rem;
+  border-radius: 8px;
+}
+
+.img-pattern {
+  position: relative;
+  top: 0px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.img-victor {
+  border-radius: 100%;
+  border: 6px solid white;
+  position: absolute;
+  top: 5rem;
+  left: 7rem;
+  z-index: 2;
+}
+
+.img-bg {
+  position: absolute;
+}
+
+.bg-top {
+  left: -30%;
+  top: -60%;
+}
+
+.bg-bottom {
+  right: -30%;
+  bottom: -80%;
+}
+
+.s {
+  width: 3rem;
+}
+
+.username {
+  margin-top: 4rem;
+}
+
+.detail-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
